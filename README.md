@@ -2,7 +2,7 @@
 
 > Life in Pink is Fantastic! 💖 Site vitrine de décoration d'intérieur style Barbie.
 
-🔗 **[Voir le site](https://dream-house.vercel.app/)**
+🔗 **[Voir le site](https://barbie-dream.djoudi.dev/)**
 
 ## ✨ Fonctionnalités
 
@@ -24,7 +24,7 @@
 
 ```bash
 # Cloner le repo
-git clone https://github.com/HAAMZA7/dream-house.git
+git clone https://github.com/HAAMZA7/BarbieDream.git
 
 # Servir localement
 npx serve
