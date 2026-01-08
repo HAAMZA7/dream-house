@@ -1,55 +1,39 @@
-# Dream House 🏠
+# ✨ BarbieDream - Décoration d'Intérieur
 
-Site vitrine élégant pour une décoratrice d'intérieur.
+> Life in Pink is Fantastic! 💖 Site vitrine de décoration d'intérieur style Barbie.
 
-## 🎨 Aperçu
-
-Dream House est un template moderne et responsive pour les professionnels de la décoration d'intérieur. Design premium avec animations fluides et sections clés pour présenter vos réalisations.
+🔗 **[Voir le site](https://dream-house.vercel.app/)**
 
 ## ✨ Fonctionnalités
 
-- **Hero Section** - Image de fond immersive avec CTA
-- **Portfolio** - Grille de projets avec effets hover
-- **Services** - Présentation des prestations
-- **À Propos** - Section biographie avec photo
-- **Contact** - Formulaire de contact responsive
-- **Design Responsive** - Mobile-first
+- 🏠 Hero section avec image immersive
+- 📸 Portfolio de réalisations
+- 🔄 Slider Avant/Après interactif
+- 🎨 Section services
+- 📧 Formulaire de contact
+- 📱 100% responsive
 
-## 🛠️ Technologies
+## 🛠️ Stack Technique
 
 - HTML5
-- CSS3 (Vanilla)
-- JavaScript (Vanilla)
-- Font Awesome Icons
+- Astro (build)
+- TailwindCSS
+- Font Awesome
 
 ## 🚀 Installation
 
 ```bash
 # Cloner le repo
-git clone https://github.com/VOTRE-USERNAME/dream-house.git
+git clone https://github.com/HAAMZA7/dream-house.git
 
-# Ouvrir index.html dans un navigateur
-```
-
-## 📁 Structure
-
-```
-dream-house/
-├── index.html          # Page principale
-├── styles/
-│   └── main.css        # Styles
-├── scripts/
-│   └── main.js         # JavaScript
-├── images/             # Images du site
-└── README.md
+# Servir localement
+npx serve
 ```
 
 ## 📄 Licence
 
 © 2025 Hamza DJOUDI - Tous droits réservés.
 
-Ce code est la propriété exclusive de Hamza DJOUDI. Toute reproduction, distribution ou utilisation non autorisée est strictement interdite.
-
 ---
 
-*Made with ❤️ by Hamza DJOUDI - [djoudi.dev](https://djoudi.dev)*
+Made with ❤️ by [Hamza DJOUDI](https://djoudi.dev)
