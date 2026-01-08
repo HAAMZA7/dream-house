@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Dream House - Créatrice d'intérieurs d'exception à Paris. Transformez votre espace en un lieu unique qui vous ressemble.">
+  <title>Dream House | Décoration d'Intérieur Paris</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles/main.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="#" class="logo">Dream <span>House</span></a>
+
+        <nav class="nav">
+          <a href="#portfolio" class="nav__link">Réalisations</a>
+          <a href="#services" class="nav__link">Services</a>
+          <a href="#about" class="nav__link">À Propos</a>
+          <a href="#contact" class="nav__link nav__cta btn btn--primary">Contact</a>
+        </nav>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation -->
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="#portfolio" class="mobile-nav__link">Réalisations</a>
+    <a href="#services" class="mobile-nav__link">Services</a>
+    <a href="#about" class="mobile-nav__link">À Propos</a>
+    <a href="#contact" class="mobile-nav__link">Contact</a>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="home">
+    <div class="hero__bg">
+      <img src="images/hero-interior.jpg" alt="Intérieur design luxueux">
+    </div>
+    <div class="hero__overlay"></div>
+
+    <div class="hero__content">
+      <p class="hero__subtitle">Décoratrice d'Intérieur</p>
+      <h1 class="hero__title">L'art de sublimer <br><em>votre espace</em></h1>
+      <p class="hero__description">
+        Créez un intérieur qui vous ressemble. Des espaces harmonieux où chaque détail raconte votre histoire, avec
+        élégance et raffinement.
+      </p>
+      <div class="hero__cta">
+        <a href="#portfolio" class="btn btn--primary">Découvrir mes projets</a>
+        <a href="#contact" class="btn btn--outline">Prendre rendez-vous</a>
+      </div>
+    </div>
+
+    <div class="hero__scroll">
+      <div class="hero__scroll-icon"></div>
+      <span>Défiler</span>
+    </div>
+  </section>
+
+  <!-- ========== PORTFOLIO SECTION ========== -->
+  <section class="section section--alt" id="portfolio">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-header__label">Portfolio</p>
+        <h2 class="section-header__title">Nos Réalisations</h2>
+        <div class="section-header__divider"></div>
+        <p class="section-header__text">
+          Chaque projet est une nouvelle histoire. Découvrez comment nous transformons les espaces en lieux de vie
+          exceptionnels.
+        </p>
+      </div>
+
+      <div class="portfolio-grid">
+        <div class="portfolio-item portfolio-item--large reveal delay-1">
+          <img src="images/project-living.jpg" alt="Salon contemporain">
+          <div class="portfolio-item__overlay">
+            <span class="portfolio-item__category">Appartement</span>
+            <h3 class="portfolio-item__title">Duplex Parisien</h3>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal delay-2">
+          <img src="images/project-bedroom.jpg" alt="Chambre élégante">
+          <div class="portfolio-item__overlay">
+            <span class="portfolio-item__category">Maison</span>
+            <h3 class="portfolio-item__title">Suite Parentale</h3>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal delay-3">
+          <img src="images/project-kitchen.jpg" alt="Cuisine moderne">
+          <div class="portfolio-item__overlay">
+            <span class="portfolio-item__category">Rénovation</span>
+            <h3 class="portfolio-item__title">Cuisine Ouverte</h3>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal delay-2">
+          <img src="images/project-office.jpg" alt="Bureau design">
+          <div class="portfolio-item__overlay">
+            <span class="portfolio-item__category">Professionnel</span>
+            <h3 class="portfolio-item__title">Espace de Travail</h3>
+          </div>
+        </div>
+
+        <div class="portfolio-item portfolio-item--large reveal delay-3">
+          <img src="images/project-dining.jpg" alt="Salle à manger luxueuse">
+          <div class="portfolio-item__overlay">
+            <span class="portfolio-item__category">Villa</span>
+            <h3 class="portfolio-item__title">Salle à Manger</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES SECTION ========== -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-header__label">Expertise</p>
+        <h2 class="section-header__title">Nos Services</h2>
+        <div class="section-header__divider"></div>
+        <p class="section-header__text">
+          Un accompagnement sur-mesure à chaque étape de votre projet, de la conception à la réalisation.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card reveal delay-1">
+          <div class="service-card__icon">
+            <i class="fas fa-compass-drafting"></i>
+          </div>
+          <h3 class="service-card__title">Conseil & Conception</h3>
+          <p class="service-card__text">
+            Analyse de vos besoins, création de planches d'ambiance et plans d'aménagement personnalisés pour votre
+            espace.
+          </p>
+        </div>
+
+        <div class="service-card reveal delay-2">
+          <div class="service-card__icon">
+            <i class="fas fa-palette"></i>
+          </div>
+          <h3 class="service-card__title">Décoration Complète</h3>
+          <p class="service-card__text">
+            Sélection du mobilier, textiles, luminaires et accessoires. Un intérieur clé en main pensé dans les moindres
+            détails.
+          </p>
+        </div>
+
+        <div class="service-card reveal delay-3">
+          <div class="service-card__icon">
+            <i class="fas fa-hammer"></i>
+          </div>
+          <h3 class="service-card__title">Suivi de Travaux</h3>
+          <p class="service-card__text">
+            Coordination des artisans, gestion du planning et contrôle qualité pour une rénovation sereine et sans
+            stress.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="section section--alt" id="about">
+    <div class="container">
+      <div class="about">
+        <div class="about__image reveal-left">
+          <img src="images/portrait-decorator.jpg" alt="Élise - Décoratrice d'intérieur">
+        </div>
+
+        <div class="about__content reveal-right">
+          <p class="about__label">À Propos</p>
+          <h2 class="about__title">Rencontrez Clara</h2>
+          <p class="about__text">
+            Passionnée par l'art et le design depuis toujours, j'ai fondé L'Art du Chez-Soi avec une vision claire :
+            créer des intérieurs qui racontent des histoires.
+          </p>
+          <p class="about__text">
+            Diplômée de l'École Camondo et forte de 12 années d'expérience, j'ai eu le privilège d'accompagner plus de
+            150 clients dans la transformation de leurs espaces de vie.
+          </p>
+          <blockquote class="about__quote">
+            "Un intérieur réussi est celui où l'on se sent immédiatement chez soi, enveloppé de beauté et de sérénité."
+          </blockquote>
+          <p class="about__signature">— Clara Beaumont</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="contact-wrapper">
+        <div class="contact-info reveal-left">
+          <h2 class="contact-info__title">Parlons de votre projet</h2>
+          <p class="contact-info__text">
+            Chaque projet commence par une conversation. Racontez-moi votre vision, vos envies, et ensemble, créons
+            l'espace qui vous ressemble.
+          </p>
+
+          <div class="contact-info__item">
+            <div class="contact-info__icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div>
+              <p class="contact-info__label">Adresse</p>
+              <p class="contact-info__value">45 Rue du Faubourg Saint-Honoré<br>75008 Paris</p>
+            </div>
+          </div>
+
+          <div class="contact-info__item">
+            <div class="contact-info__icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div>
+              <p class="contact-info__label">Téléphone</p>
+              <p class="contact-info__value">+33 1 42 65 78 90</p>
+            </div>
+          </div>
+
+          <div class="contact-info__item">
+            <div class="contact-info__icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div>
+              <p class="contact-info__label">Email</p>
+              <p class="contact-info__value">contact@dreamhouse.fr</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form reveal-right" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Nom complet</label>
+              <input type="text" id="name" name="name" placeholder="Votre nom" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Téléphone</label>
+            <input type="tel" id="phone" name="phone" placeholder="+33 6 12 34 56 78">
+          </div>
+
+          <div class="form-group">
+            <label for="service">Type de projet</label>
+            <select id="service" name="service">
+              <option value="">Sélectionnez un service</option>
+              <option value="conseil">Conseil & Conception</option>
+              <option value="decoration">Décoration Complète</option>
+              <option value="travaux">Suivi de Travaux</option>
+              <option value="autre">Autre</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Votre message</label>
+            <textarea id="message" name="message"
+              placeholder="Décrivez votre projet, vos envies, votre budget estimé..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary">Envoyer ma demande</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a href="#" class="footer__logo">Dream <span>House</span></a>
+
+        <div class="footer__social">
+          <a href="#" class="footer__social-link" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="footer__social-link" aria-label="Pinterest">
+            <i class="fab fa-pinterest-p"></i>
+          </a>
+          <a href="#" class="footer__social-link" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#" class="footer__social-link" aria-label="Houzz">
+            <i class="fab fa-houzz"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2025 Dream House. Tous droits réservés.</p>
+        <div class="footer__links">
+          <a href="#">Mentions légales</a>
+          <a href="#">Politique de confidentialité</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
