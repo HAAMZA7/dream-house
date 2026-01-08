@@ -52,7 +52,9 @@ dream-house/
 
 ## 📄 Licence
 
-MIT License - Libre d'utilisation et modification.
+© 2025 Dream House - Tous droits réservés.
+
+Ce code est la propriété exclusive de Dream House. Toute reproduction, distribution ou utilisation non autorisée est strictement interdite.
 
 ---
 
